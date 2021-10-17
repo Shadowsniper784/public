@@ -1,0 +1,402 @@
+1634395024096 Cannot read property 'join' of undefined
+ TypeError: Cannot read property 'join' of undefined
+ TypeError: Cannot read property 'join' of undefined
+    at Client.<anonymous> (/home/runner/public/node_modules/@2pg/oauth/lib/client.js:102:64)
+    at step (/home/runner/public/node_modules/@2pg/oauth/lib/client.js:33:23)
+    at Object.next (/home/runner/public/node_modules/@2pg/oauth/lib/client.js:14:53)
+    at /home/runner/public/node_modules/@2pg/oauth/lib/client.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/runner/public/node_modules/@2pg/oauth/lib/client.js:4:12)
+    at Client.getAccess (/home/runner/public/node_modules/@2pg/oauth/lib/client.js:85:16)
+    at /home/runner/public/Api/index.js:25:34
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+ TypeError: Cannot read property 'join' of undefined
+    at Client.<anonymous> (/home/runner/public/node_modules/@2pg/oauth/lib/client.js:102:64)
+    at step (/home/runner/public/node_modules/@2pg/oauth/lib/client.js:33:23)
+    at Object.next (/home/runner/public/node_modules/@2pg/oauth/lib/client.js:14:53)
+    at /home/runner/public/node_modules/@2pg/oauth/lib/client.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/runner/public/node_modules/@2pg/oauth/lib/client.js:4:12)
+    at Client.getAccess (/home/runner/public/node_modules/@2pg/oauth/lib/client.js:85:16)
+    at /home/runner/public/Api/index.js:26:36
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+ Error: Invalid grant_type provided, it must be either authorization_code or refresh_token
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:81:14)
+    at OAuth.getAccess (/home/runner/public/Api/auth/lib/oauth.js:90:17)
+    at /home/runner/public/Api/index.js:25:36
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/runner/public/node_modules/express/lib/router/index.js:275:10)
+ Error: Invalid grant_type provided, it must be either authorization_code or refresh_token
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:81:14)
+    at OAuth.getAccess (/home/runner/public/Api/auth/lib/oauth.js:90:17)
+    at /home/runner/public/Api/index.js:25:36
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/runner/public/node_modules/express/lib/router/index.js:275:10)
+ Error: Invalid grant_type provided, it must be either authorization_code or refresh_token
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:81:14)
+    at OAuth.getAccess (/home/runner/public/Api/auth/lib/oauth.js:90:17)
+    at /home/runner/public/Api/index.js:25:36
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/runner/public/node_modules/express/lib/router/index.js:275:10)
+ SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at /home/runner/public/Api/index.js:32:16
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+ DiscordHTTPError: 400 Bad Request on POST /api/v8/oauth2/token
+    at OAuth.request (/home/runner/public/Api/auth/lib/eris/rest/RequestHandler.js:85:9)
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:85:15)
+    at OAuth.getAccess (/home/runner/public/Api/auth/lib/oauth.js:90:17)
+    at /home/runner/public/Api/index.js:31:36
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+ DiscordHTTPError: 400 Bad Request on POST /api/v8/oauth2/token
+    at OAuth.request (/home/runner/public/Api/auth/lib/eris/rest/RequestHandler.js:85:9)
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:85:15)
+    at OAuth.getAccess (/home/runner/public/Api/auth/lib/oauth.js:90:17)
+    at /home/runner/public/Api/index.js:31:36
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+ Error: No code
+    at /home/runner/public/Api/index.js:30:52
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/runner/public/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/runner/public/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/runner/public/node_modules/express/lib/router/index.js:47:12)
+ Error: No code
+    at /home/runner/public/Api/index.js:38:52
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/runner/public/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/runner/public/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/runner/public/node_modules/express/lib/router/index.js:47:12)
+ DiscordHTTPError: 400 Bad Request on POST /api/v8/oauth2/token
+    at OAuth.request (/home/runner/public/Api/auth/lib/eris/rest/RequestHandler.js:85:9)
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:85:15)
+    at OAuth.getAccess (/home/runner/public/Api/auth/lib/oauth.js:90:17)
+    at /home/runner/public/Api/index.js:40:36
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+ DiscordHTTPError: 400 Bad Request on POST /api/v8/oauth2/token
+    at OAuth.request (/home/runner/public/Api/auth/lib/eris/rest/RequestHandler.js:85:9)
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:85:15)
+    at OAuth.getAccess (/home/runner/public/Api/auth/lib/oauth.js:90:17)
+    at /home/runner/public/Api/index.js:40:36
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+ DiscordHTTPError: 400 Bad Request on POST /api/v8/oauth2/token
+    at OAuth.request (/home/runner/public/Api/auth/lib/eris/rest/RequestHandler.js:85:9)
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:85:15)
+    at OAuth.getAccess (/home/runner/public/Api/auth/lib/oauth.js:90:17)
+    at /home/runner/public/Api/index.js:40:36
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+ DiscordHTTPError: 400 Bad Request on POST /api/v8/oauth2/token
+    at OAuth.request (/home/runner/public/Api/auth/lib/eris/rest/RequestHandler.js:85:9)
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:85:15)
+    at OAuth.getAccess (/home/runner/public/Api/auth/lib/oauth.js:90:17)
+    at /home/runner/public/Api/index.js:40:36
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+ DiscordHTTPError: 400 Bad Request on POST /api/v8/oauth2/token
+    at OAuth.request (/home/runner/public/Api/auth/lib/eris/rest/RequestHandler.js:85:9)
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:85:15)
+    at OAuth.refresh (/home/runner/public/Api/auth/lib/oauth.js:97:17)
+    at /home/runner/public/Api/index.js:33:31
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+ DiscordHTTPError: 400 Bad Request on POST /api/v8/oauth2/token
+    at OAuth.request (/home/runner/public/Api/auth/lib/eris/rest/RequestHandler.js:85:9)
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:85:15)
+    at OAuth.refresh (/home/runner/public/Api/auth/lib/oauth.js:97:17)
+    at /home/runner/public/Api/index.js:33:31
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+ DiscordHTTPError: 400 Bad Request on POST /api/v8/oauth2/token
+    at OAuth.request (/home/runner/public/Api/auth/lib/eris/rest/RequestHandler.js:85:9)
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:85:15)
+    at OAuth.refresh (/home/runner/public/Api/auth/lib/oauth.js:97:17)
+    at /home/runner/public/Api/index.js:33:31
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+ DiscordHTTPError: 400 Bad Request on POST /api/v8/oauth2/token
+    at OAuth.request (/home/runner/public/Api/auth/lib/eris/rest/RequestHandler.js:85:9)
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:85:15)
+    at OAuth.refresh (/home/runner/public/Api/auth/lib/oauth.js:97:17)
+    at /home/runner/public/Api/index.js:33:31
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+ DiscordHTTPError: 400 Bad Request on POST /api/v8/oauth2/token
+    at OAuth.request (/home/runner/public/Api/auth/lib/eris/rest/RequestHandler.js:85:9)
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:85:15)
+    at OAuth.refresh (/home/runner/public/Api/auth/lib/oauth.js:97:17)
+    at /home/runner/public/Api/index.js:33:31
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+ DiscordHTTPError: 400 Bad Request on POST /api/v8/oauth2/token
+    at OAuth.request (/home/runner/public/Api/auth/lib/eris/rest/RequestHandler.js:85:9)
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:85:15)
+    at OAuth.getAccess (/home/runner/public/Api/auth/lib/oauth.js:90:17)
+    at /home/runner/public/Api/index.js:49:36
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+ DiscordHTTPError: 400 Bad Request on POST /api/v8/oauth2/token
+    at OAuth.request (/home/runner/public/Api/auth/lib/eris/rest/RequestHandler.js:85:9)
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:85:15)
+    at OAuth.refresh (/home/runner/public/Api/auth/lib/oauth.js:97:17)
+    at /home/runner/public/Api/index.js:33:31
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+ DiscordHTTPError: 400 Bad Request on POST /api/v8/oauth2/token
+    at OAuth.request (/home/runner/public/Api/auth/lib/eris/rest/RequestHandler.js:85:9)
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:85:15)
+    at OAuth.getAccess (/home/runner/public/Api/auth/lib/oauth.js:90:17)
+    at /home/runner/public/Api/index.js:49:36
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+ DiscordHTTPError: 400 Bad Request on POST /api/v8/oauth2/token
+    at OAuth.request (/home/runner/public/Api/auth/lib/eris/rest/RequestHandler.js:85:9)
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:85:15)
+    at OAuth.refresh (/home/runner/public/Api/auth/lib/oauth.js:97:17)
+    at /home/runner/public/Api/index.js:33:31
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+ DiscordHTTPError: 400 Bad Request on POST /api/v8/oauth2/token
+    at OAuth.request (/home/runner/public/Api/auth/lib/eris/rest/RequestHandler.js:85:9)
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:85:15)
+    at OAuth.getAccess (/home/runner/public/Api/auth/lib/oauth.js:90:17)
+    at /home/runner/public/Api/index.js:49:36
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+ DiscordHTTPError: 400 Bad Request on POST /api/v8/oauth2/token
+    at OAuth.request (/home/runner/public/Api/auth/lib/eris/rest/RequestHandler.js:85:9)
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:85:15)
+    at OAuth.refresh (/home/runner/public/Api/auth/lib/oauth.js:97:17)
+    at /home/runner/public/Api/index.js:33:31
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+ DiscordHTTPError: 400 Bad Request on POST /api/v8/oauth2/token
+    at OAuth.request (/home/runner/public/Api/auth/lib/eris/rest/RequestHandler.js:85:9)
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:85:15)
+    at OAuth.refresh (/home/runner/public/Api/auth/lib/oauth.js:97:17)
+    at /home/runner/public/Api/index.js:33:31
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+ DiscordHTTPError: 400 Bad Request on POST /api/v8/oauth2/token
+    at OAuth.request (/home/runner/public/Api/auth/lib/eris/rest/RequestHandler.js:85:9)
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:85:15)
+    at OAuth.refresh (/home/runner/public/Api/auth/lib/oauth.js:97:17)
+    at /home/runner/public/Api/index.js:33:31
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+ DiscordHTTPError: 400 Bad Request on POST /api/v8/oauth2/token
+    at OAuth.request (/home/runner/public/Api/auth/lib/eris/rest/RequestHandler.js:85:9)
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:85:15)
+    at OAuth.refresh (/home/runner/public/Api/auth/lib/oauth.js:97:17)
+    at /home/runner/public/Api/index.js:33:31
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+ DiscordHTTPError: 400 Bad Request on POST /api/v8/oauth2/token
+    at OAuth.request (/home/runner/public/Api/auth/lib/eris/rest/RequestHandler.js:85:9)
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:85:15)
+    at OAuth.refresh (/home/runner/public/Api/auth/lib/oauth.js:97:17)
+    at /home/runner/public/Api/index.js:33:31
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+ DiscordHTTPError: 400 Bad Request on POST /api/v8/oauth2/token
+    at OAuth.request (/home/runner/public/Api/auth/lib/eris/rest/RequestHandler.js:85:9)
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:85:15)
+    at OAuth.refresh (/home/runner/public/Api/auth/lib/oauth.js:97:17)
+    at /home/runner/public/Api/index.js:34:31
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+ DiscordHTTPError: 400 Bad Request on POST /api/v8/oauth2/token
+    at OAuth.request (/home/runner/public/Api/auth/lib/eris/rest/RequestHandler.js:85:9)
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:85:15)
+    at OAuth.refresh (/home/runner/public/Api/auth/lib/oauth.js:97:17)
+    at /home/runner/public/Api/index.js:34:31
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+ DiscordHTTPError: 400 Bad Request on POST /api/v8/oauth2/token
+    at OAuth.request (/home/runner/public/Api/auth/lib/eris/rest/RequestHandler.js:85:9)
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:85:15)
+    at OAuth.refresh (/home/runner/public/Api/auth/lib/oauth.js:97:17)
+    at /home/runner/public/Api/index.js:34:31
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+ DiscordHTTPError: 400 Bad Request on POST /api/v8/oauth2/token
+    at OAuth.request (/home/runner/public/Api/auth/lib/eris/rest/RequestHandler.js:85:9)
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:85:15)
+    at OAuth.refresh (/home/runner/public/Api/auth/lib/oauth.js:97:17)
+    at /home/runner/public/Api/index.js:34:31
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+ DiscordHTTPError: 400 Bad Request on POST /api/v8/oauth2/token
+    at OAuth.request (/home/runner/public/Api/auth/lib/eris/rest/RequestHandler.js:85:9)
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:85:15)
+    at OAuth.refresh (/home/runner/public/Api/auth/lib/oauth.js:97:17)
+    at /home/runner/public/Api/index.js:34:31
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+ DiscordHTTPError: 400 Bad Request on POST /api/v8/oauth2/token
+    at OAuth.request (/home/runner/public/Api/auth/lib/eris/rest/RequestHandler.js:85:9)
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:85:15)
+    at OAuth.refresh (/home/runner/public/Api/auth/lib/oauth.js:97:17)
+    at /home/runner/public/Api/index.js:45:31
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+ DiscordHTTPError: 400 Bad Request on POST /api/v8/oauth2/token
+    at OAuth.request (/home/runner/public/Api/auth/lib/eris/rest/RequestHandler.js:85:9)
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:85:15)
+    at OAuth.refresh (/home/runner/public/Api/auth/lib/oauth.js:97:17)
+    at /home/runner/public/Api/index.js:45:31
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)
+ DiscordHTTPError: 400 Bad Request on POST /api/v8/oauth2/token
+    at OAuth.request (/home/runner/public/Api/auth/lib/eris/rest/RequestHandler.js:85:9)
+    at OAuth.tokenRequest (/home/runner/public/Api/auth/lib/oauth.js:85:15)
+    at OAuth.refresh (/home/runner/public/Api/auth/lib/oauth.js:97:17)
+    at /home/runner/public/Api/index.js:45:31
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/public/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/public/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/public/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/public/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/runner/public/node_modules/express/lib/router/index.js:335:12)

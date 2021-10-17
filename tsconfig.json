@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "target": "esnext",
+    "module": "commonjs",
+    "outDir": "./Bot/dist",
+    "rootDir": "./Bot/src",
+    "include": "./Bot/src/**/*",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["./Bot/src/**/*"],
+}
