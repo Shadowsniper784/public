@@ -3,13 +3,12 @@
     "resolveJsonModule": true,
     "target": "esnext",
     "module": "commonjs",
-    "outDir": "./Bot/dist",
-    "rootDir": "./Bot/src",
-    "include": "./Bot/src/**/*",
+    "outDir": "./Bot/handler/dist",
+    "rootDir": "./Bot/handler/src",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["./Bot/src/**/*"],
+  "include": ["./Bot/handler/**/*"],
 }

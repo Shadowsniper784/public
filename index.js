@@ -1,6 +1,42 @@
 global.version = 0.1
 global.abortcontroller = require('abort-controller')
+var beautify = require('js-beautify').js,
+    fs = require('fs');
 
+function b(){
+  const getAllFiles = (dir, extension=null) => {
+  const files = fs.readdirSync(dir, {
+    withFileTypes: true,
+  })
+  let jsFiles = []
+
+  for (const file of files) {
+    if (file.isDirectory()) {
+      jsFiles = [...jsFiles, ...getAllFiles(`${dir}/${file.name}`, extension)]
+    } else if (
+      file.name.endsWith(extension || '.js') &&
+      !file.name.startsWith('!')
+    ) {
+      let fileName = file.name.replace(/\\/g, '/').split('/')
+      fileName = fileName[fileName.length - 1]
+      fileName = fileName.split('.')[0].toLowerCase()
+
+      jsFiles.push([`${dir}/${file.name}`, fileName])
+    }
+  }
+
+  return jsFiles
+}
+getAllFiles("/home/runner/public/Bot").forEach(e=>{
+fs.readFile(e[0], 'utf8', function (err, data) {
+    if (err) {
+        throw err;
+    }
+    fs.writeFileSync(e[0], beautify(data, { indent_size: 2, space_in_empty_paren: true }));
+})
+})
+}
+//b()
 const Discord = require('discord.js')
 const {Intents, Client} = Discord
 const client = new Client({
@@ -13,8 +49,17 @@ const dashboard = true
 /* Web app */
 const express = require('express')
 const app = express()
+const cors = require("cors")
 const bodyParser = require('body-parser')
+app.use(cors({
+  whitelist: ["*"]
+}))
 app.use(bodyParser.json())
+
+app.use((req,res,next)=>{
+  console.log(new Date().getHours() + ':' + new Date().getMinutes() + '  ' + req.url)
+  next()
+})
 const api = require('./Api')
 app.use(express.static('./dashboard/build'))
 app.use('/api',api)

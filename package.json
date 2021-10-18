@@ -6,9 +6,11 @@
   "dependencies": {
     "@2pg/oauth": "^1.0.8",
     "abort-controller": "^3.0.0",
+    "cors": "^2.8.5",
     "discord-oauth2": "^2.8.0",
     "discord.js": "^13.3.0-dev.1634385782.38cc89e",
     "express": "^4.17.1",
+    "js-beautify": "^1.14.0",
     "wokcommands": "^1.5.3"
   },
   "devDependencies": {
